@@ -28,12 +28,16 @@ python -m pip install -r requirements.txt
 python video_01_nn_solves_ode/run.py
 ```
 
-The script reports residual, RMS, and maximum state errors and creates:
+The script reports residual, RMS, and maximum state errors and creates these
+white-background figure copies for GitHub preview:
 
-- [`figures/short_position.png`](figures/short_position.png) and
-  [`figures/short_phase.png`](figures/short_phase.png);
-- [`figures/long_position.png`](figures/long_position.png) and
-  [`figures/long_phase.png`](figures/long_phase.png).
+- [`figures/white/short_position.png`](figures/white/short_position.png) and
+  [`figures/white/short_phase.png`](figures/white/short_phase.png);
+- [`figures/white/long_position.png`](figures/white/long_position.png) and
+  [`figures/white/long_phase.png`](figures/white/long_phase.png).
+
+The same figures are also saved as transparent dark-slide versions in
+`figures/`.
 
 The result illustrates that this straightforward global residual-minimization formulation becomes harder as the horizon grows. It does **not** show that neural networks cannot solve long-time ODEs. Accuracy is sensitive to network, optimizer, sampling, and training choices.
 
