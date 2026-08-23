@@ -1,0 +1,15 @@
+.venv/
+.matplotlib/
+
+# Caches
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.DS_Store
+guidelines.md
+
+slides/
