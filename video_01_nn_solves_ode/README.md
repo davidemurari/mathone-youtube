@@ -6,9 +6,9 @@ residual globally in time.
 
 For the mildly damped oscillator
 
-\[
+$$
 q'=p, \qquad p'=-q-0.05p, \qquad (q(0),p(0))=(1,0),
-\]
+$$
 
 the script trains the same 3-hidden-layer, width-32 tanh network on $T=10$
 and $T=40$. The initial condition is exact because the prediction has the
